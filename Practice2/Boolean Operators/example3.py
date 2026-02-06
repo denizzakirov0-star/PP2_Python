@@ -1,7 +1,7 @@
-bool(False)
-bool(None)
-bool(0)
-bool("")
-bool(())
-bool([])
-bool({})
+bool(False)  # return False
+bool(None)   # return False
+bool(0)      # return False
+bool("")     # return False
+bool(())     # return False
+bool([])     # return False
+bool({})     # return False
