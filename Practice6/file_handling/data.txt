@@ -1,0 +1,29 @@
+1. Notebook
+    Price: 1200$
+    Stock: 15 pcs
+    Category: electronics
+
+2. Smartphone
+    Price: 800$
+    Stock: 30 pcs
+    Category: electronics
+
+3. Headphones
+    Price: 150$
+    Stock: 50 pcs
+    Category: accessories
+
+4. Backpack
+    Price: 60$
+    Stock: 25 pcs
+    Category: clothing
+
+5. Water bottle
+    Price: 10$
+    Stock: 100 pcs
+    Category: home
+
+6. Coca Cola
+    Price: 15$
+    Stock: 200
+    Category: drink
