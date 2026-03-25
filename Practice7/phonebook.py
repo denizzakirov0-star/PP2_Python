@@ -153,7 +153,7 @@ def delete_contact():
 
 # update_contact()
 
-csv_reader()
+# csv_reader()
 
 # console_reader()
 
