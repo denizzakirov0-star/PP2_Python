@@ -24,7 +24,6 @@ DECLARE
     v_name TEXT;
     v_phone TEXT;
 BEGIN
-    -- таблица для неправильных данных
     CREATE TEMP TABLE IF NOT EXISTS invalid_data (
         name TEXT,
         phone TEXT,
@@ -35,10 +34,8 @@ BEGIN
         v_name := p_names[i];
         v_phone := p_phones[i];
 
-        -- проверка телефона (только цифры и + в начале)
         IF v_phone ~ '^\+?[0-9]{10,15}$' THEN
 
-            -- UPSERT логика
             IF EXISTS (SELECT 1 FROM contacts WHERE first_name = v_name) THEN
                 UPDATE contacts
                 SET phone = v_phone
@@ -55,7 +52,6 @@ BEGIN
 
     END LOOP;
 
-    -- вернуть неправильные данные
     RAISE NOTICE 'Invalid rows stored in temp table invalid_data';
 END;
 $$;
