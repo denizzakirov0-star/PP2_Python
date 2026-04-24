@@ -155,8 +155,8 @@ def delete_contact():
 
 # csv_reader()
 
-# console_reader()
+#console_reader()
 
-# search_contact()
+search_contact()
 
 # delete_contact()

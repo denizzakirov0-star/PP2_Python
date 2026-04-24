@@ -15,7 +15,7 @@ $$;
 
 CREATE OR REPLACE PROCEDURE upsert_many_users(
     p_names TEXT[],
-    p_phones TEXT[]
+    p_phones TEXT[] 
 )
 LANGUAGE plpgsql
 AS $$
